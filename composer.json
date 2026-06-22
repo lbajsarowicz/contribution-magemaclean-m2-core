@@ -6,20 +6,27 @@
     "license": [
         "OSL-3.0"
     ],
+    "require": {
+        "php": "~8.1.0||~8.2.0||~8.3.0",
+        "magento/framework": "103.0.*||104.0.*"
+    },
     "authors": [
-      {
-        "name": "MageMaclean",
-        "email": "support@magemaclean.com",
-        "homepage": "https://magemaclean.com",
-        "role": "Leader"
-      }
+        {
+            "name": "MageMaclean",
+            "email": "support@magemaclean.com",
+            "homepage": "https://magemaclean.com",
+            "role": "Leader"
+        }
     ],
     "autoload": {
-      "files": [
-        "registration.php"
-      ],
-      "psr-4": {
-        "MageMaclean\\Core\\": ""
-      }
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageMaclean\\Core\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
     }
-  }
+}
